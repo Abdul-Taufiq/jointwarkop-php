@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+	background-color: white;
+	background-image: url(gambar/moroccan-flower.png);
+}
+
+nav{
+	display: flex;
+	background-color: red;
+	justify-content: space-around;
+	color: white;
+	height: 55px;
+	align-items: center;
+}
+
+nav .logo{
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 2px;
+	width: 500px;
+}
+
+p {
+	padding-top: 10px;
+}
+
+p a{
+	text-decoration: none;
+	color: white;
+}
+
+nav .glogo{
+	width: 60px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	width: 35%;
+	justify-content: space-between;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.1em;
+}
+
+nav ul li a:hover{
+	color: blue;
+}
+
+.konten{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.footer{
+	bottom: 0px;
+}
+
+.g0, .g1, .g2{
+	width: 400px;
+	height: 300px;
+	border: 4px solid #bab8b8;
+	padding: 10px;
+	margin: auto;
+}
+
+td{
+	text-align: center;
+	vertical-align: middle;
+	text-decoration-style: bold;
+}
+
+.wa, .ig{
+	color: red;
+}
